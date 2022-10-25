@@ -1,0 +1,19 @@
+{
+    "name": "task-types",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "tsd": "^0.18.0",
+        "typescript": "^4.1.2"
+    },
+    "scripts": {
+        "test": "tsd",
+        "prepare": "husky install"
+    },
+    "types": "src/index.d.ts",
+    "devDependencies": {
+        "husky": "^7.0.0",
+        "prettier": "^2.4.1",
+        "pretty-quick": "^3.1.1"
+    }
+}
